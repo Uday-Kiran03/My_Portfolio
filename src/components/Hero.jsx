@@ -136,7 +136,7 @@ export const Hero = () => {
             {/* 2. AWS Certified Cloud Practitioner Badge Card */}
             <div className="glass-panel p-4 rounded-xl flex items-center gap-3.5 border border-cyan-500/30 bg-cyan-950/20 hover:border-cyan-400 transition-all group">
               <img
-                src="/aws-cloud-practitioner.png"
+                src={`${import.meta.env.BASE_URL}aws-cloud-practitioner.png`}
                 alt="AWS Certified Cloud Practitioner"
                 className="w-12 h-12 object-contain shrink-0 group-hover:scale-110 transition-transform"
                 onError={(e) => {
