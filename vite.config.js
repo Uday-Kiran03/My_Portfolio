@@ -16,9 +16,9 @@ try {
 }
 
 export default defineConfig({
-  base: './',
+  base: '/My_Portfolio/',
   build: {
-    outDir: 'docs'
+    outDir: 'dist'
   },
   plugins: [react()],
   server: {
