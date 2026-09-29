@@ -17,6 +17,9 @@ try {
 
 export default defineConfig({
   base: './',
+  build: {
+    outDir: 'docs'
+  },
   plugins: [react()],
   server: {
     port: 3000,
