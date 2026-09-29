@@ -16,6 +16,7 @@ try {
 }
 
 export default defineConfig({
+  base: '/My_Portfolio/',
   plugins: [react()],
   server: {
     port: 3000,
